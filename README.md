@@ -1,5 +1,8 @@
 Student Management System - Debugging and Troubleshooting Project
+=================================================================
+
 Project Overview
+----------------
 This project was completed as part of the Week 2 Debugging and Troubleshooting Python Applications assignment.
 
 The objective was to simulate a real-world debugging scenario by identifying, reproducing, analyzing, documenting, and fixing defects in a Python-based Student Management System. The application manages student records, course enrollments, academic grades, and top-performing student identification.
@@ -7,6 +10,7 @@ The objective was to simulate a real-world debugging scenario by identifying, re
 During the project, several bugs were intentionally introduced into a working application. Each bug was investigated using structured debugging techniques, fixed systematically, and documented thoroughly.
 
 Project Objectives
+------------------
 The primary objectives of this project were:
 
 Perform an initial code review.
@@ -18,7 +22,9 @@ Use Python debugging tools.
 Document the troubleshooting process.
 Refactor code for readability and maintainability.
 Verify fixes through testing.
+
 Application Features
+--------------------
 The Student Management System supports:
 
 Student Management
@@ -33,14 +39,18 @@ Grade Management
 Add student grades
 Calculate average grades
 Filter top-performing students
+
 Bugs Identified
+---------------
 Bug ID	Description	Type
 BUG-001	Grades initialized as List instead of Set	AttributeError
 BUG-002	Incorrect dictionary key ("course")	KeyError
 BUG-003	Incorrect variable name (student_record)	NameError
 BUG-004	Incorrect filtering condition	Logical Error
 BUG-005	Missing return statement	Functional Error
+
 Tools Used
+----------
 Python 3.x
 Visual Studio Code
 pdb Debugger
